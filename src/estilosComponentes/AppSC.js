@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Fondo = styled.div`
+    height: 100vh;
+    width:100%
     margin: 0;
     background: rgb(37,37,37);
     background: linear-gradient(60deg, rgba(37,37,37,1) 5%, rgba(0,0,0,1) 71%);

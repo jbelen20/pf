@@ -1,4 +1,5 @@
 import Cartillas from './componentes/Cartillas';
+import SlideSkills from './componentes/SlideSkills';
 import { Fondo, Subtitulo, Nombre, Info } from './estilosComponentes/AppSC';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <Subtitulo>Desarrolladora FullStack</Subtitulo>
       </Info>
       <Cartillas />
+      <SlideSkills />
     </Fondo>
   );
 }
